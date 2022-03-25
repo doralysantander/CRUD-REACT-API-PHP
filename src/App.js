@@ -23,7 +23,7 @@ return (
 
   <Route exact path="/" element={<Listar/>}/>
   <Route exact path="/crear" element={<Crear/>}/>
-  <Route exact path="/editar" element={<Editar/>}/>
+  <Route exact path="/editar/:id" element={<Editar/>}/>
 </Routes>
 </div>
 </>

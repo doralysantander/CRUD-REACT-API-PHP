@@ -4,7 +4,13 @@ class Editar extends React.Component {
         super(props);
         this.state = {}
     }
-    state = {  }
+    //recepcionar id que viene de appjs
+    ccomponentDidMount(){
+        console.log(this.props.match.Params.id);//busca el dato con match que viene de los parametros
+      
+
+    }
+    
     render() { 
         return ( <div className="card">
             <div className="card-header">
